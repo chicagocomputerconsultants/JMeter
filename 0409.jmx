@@ -687,7 +687,12 @@
       <hashTree/>
       <ProxyControl guiclass="ProxyControlGui" testclass="ProxyControl" testname="HTTP(S) Test Script Recorder" enabled="true">
         <stringProp name="ProxyControlGui.port">8888</stringProp>
-        <collectionProp name="ProxyControlGui.exclude_list"/>
+        <collectionProp name="ProxyControlGui.exclude_list">
+          <stringProp name="40255162">*.asp</stringProp>
+          <stringProp name="40263811">*.jsp</stringProp>
+          <stringProp name="1248119535">*.html</stringProp>
+          <stringProp name="40269236">*.php</stringProp>
+        </collectionProp>
         <collectionProp name="ProxyControlGui.include_list"/>
         <boolProp name="ProxyControlGui.capture_http_headers">true</boolProp>
         <intProp name="ProxyControlGui.grouping_mode">0</intProp>
